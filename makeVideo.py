@@ -29,7 +29,7 @@ VideoList = "list=PLKB9puQeauyBTnMmRWsB4VVfbbWR0tKCc"
 PlayList = f"https://www.youtube.com/playlist?{VideoList}"
 ImageCounter = 0
 VideoCounter = 0
-fontpath = r"C:\Users\alsyd\OneDrive\Desktop\quran project"
+fontpath = r"Path\quran project" # use ur own path!
 
 # https://www.youtube.com/playlist?list=PLKB9puQeauyBTnMmRWsB4VVfbbWR0tKCc
 
@@ -90,7 +90,7 @@ def getPlayList(ListUrl):
 
 def EditVideo(Video,Image):
     if Video and Image:
-        ImageMaskPath = r"C:\Users\alsyd\OneDrive\Desktop\quran project\Imagemask.png"
+        ImageMaskPath = r"C:\Users\alsyd\OneDrive\Desktop\quran project\Imagemask.png" # USE UR OWN PATH !!!!
         videoClip:mp.VideoClip = mp.VideoFileClip(Video).set_position("center","center").fx(vfx.fadein,0.5).fx(vfx.fadeout,0.5)
         imageclip:mp.ImageClip = mp.ImageClip(Image,duration=videoClip.duration).set_position("center","center").fx(vfx.fadein,0.5).fx(vfx.fadeout,0.5)
         videoClip = videoClip.resize(height=880)
