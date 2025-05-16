@@ -44,8 +44,8 @@ You can change the playlist from here:
       "list=PLKB9puQeauyDbnCis9xagtEQ-vtEgUOHr"
   ]
 ```
-ذذذذذذ````ذذسس
-ذ
+
+
 # . Posting the Video
 In the final step, the video is uploaded.
 You need to have a .env file with the following variables:
@@ -67,8 +67,7 @@ You can change how often it posts by modifying this variable:
 hours = 6  # Change this to the number of hours you want
 
 ```
-نسخ
-تحرير
+
 # Set how many hours to wait between each video upload
 hours = 6  # Change this to the number of hours you want
 
